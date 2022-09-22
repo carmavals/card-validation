@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2e5a9b;
+    font-family: 'Poppins', sans-serif;
+    }
+
+
+.head{
+    width: 100%;
+    display: flex;
+    background-color: #146bec;
+    height: 70px;
+    box-shadow: 0 10px 20px white;
+    
+}
+
+ .titulo{
+    display: inline-block;
+    font-size: 20px;
+  color: white;
+ 
+    padding: 10px;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+   
+}
+
+.tarjeta{
+    width: 20%;
+    padding: 1rem;
+    border: 2px solid black;
+    background-color: #2671e2cc;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 5px 20px black;
+    
+}
+.tu-tarjeta{
+    font-size: 1.5rem;
+    
+}
+.compras{
+    font-size: 1.5rem;
+}
+main{
+    position: static;
+}
+section{
+    position: relative;
+    left: 40%;
+    top: 350px
+}
